@@ -22,7 +22,7 @@ Redis is best described as a In Memory Data Structure Store. Which means it stor
 Concurrent TCP Server: Listens for client connections on port 6379 the same as Redis.
 
 Concurrency Design: Each connection is processed by a handler func and we will use a goroutine for this. Which means many clients can issue commands without waiting for others. Note: Redis is single threaded and uses an architecture called an event loop, that can handle all incoming requests and outgoing responses. The event loop will make sure to check for new client connections, incoming data, or any completed tasks. Single threads can help deal concurrency issues like Locks and Corruption of shared memory. An event loop runs a single thread that runs a infinite loop. 
-Note for Go since were using go routines we can offset this, by using Sync.Lock in Go Mutex format with Go’s concurrency we can increase throughput on multi-core systems(CPUS). 
+Note for Go since were using go routines we can offset this, by using Sync.Lock in Go Mutex format with Go’s concurrency we can increase throughput on multi-core systems(CPU). 
  
 
 Resp: Speaks a simple wire protocol and their commands support SET key Value, GET key value, DEL key
