@@ -10,7 +10,7 @@ Redis is best described as a In Memory Data Structure Store. Which means it stor
   <img width="607" height="243" alt="Screenshot 2026-08-25 at 3 30 58 PM" src="https://github.com/user-attachments/assets/45a92fdf-bd3b-4b72-8ec4-83794d41f3c7" />
 
 
-#Important part: Redis is a key-value store: Here are some data structures 
+#Important part: Redis is a key-value store and every object in Redis is stored in a string key: Here are some data structures 
   Strings
   Hashes (objects/dictionaries)
   Lists
