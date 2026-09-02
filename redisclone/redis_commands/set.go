@@ -1,8 +1,8 @@
 package rediscommands
 
 import (
-	"Pokemonscraper/redisclone/Datastructure"
-	"Pokemonscraper/redisclone/resp"
+	"redisclone/Datastructure"
+	"redisclone/resp"
 )
 
 // the resp value will return any og the
