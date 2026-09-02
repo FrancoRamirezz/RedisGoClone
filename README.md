@@ -7,6 +7,8 @@ Redis is best described as a In Memory Data Structure Store. Which means it stor
   epoll on Linux
   kqueue on macOS and FreeBSD
 
+File Descriptors: think of a number that uniquely identifies an open file in a computer operating system. When a program asks to open a source the kernel will grant access  
+
   <img width="607" height="243" alt="Screenshot 2026-08-25 at 3 30 58 PM" src="https://github.com/user-attachments/assets/45a92fdf-bd3b-4b72-8ec4-83794d41f3c7" />
 
 
