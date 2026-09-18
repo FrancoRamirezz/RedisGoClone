@@ -1,7 +1,7 @@
 package aofgo
 
 import (
-	"Pokemonscraper/redisclone/resp"
+	"/redisclone/resp"
 	"bufio"
 	"fmt"
 	"strings"
