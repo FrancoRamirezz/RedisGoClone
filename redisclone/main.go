@@ -1,9 +1,9 @@
 package redisclone
 
 import (
-	aofgo "Pokemonscraper/redisclone/AOF"
-	Datastructure "Pokemonscraper/redisclone/DataStructure"
-	"Pokemonscraper/redisclone/resp"
+	aofgo "redisclone/AOF"
+	Datastructure "redisclone/DataStructure"
+	"redisclone/resp"
 
 	"fmt"
 	"io"
